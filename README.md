@@ -3,7 +3,7 @@
 ![Platform: Windows 10/11](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)
 
 # Deving Gene (WIP — OSS 2026)
-Focus &amp; automation toolkit designed to increase productivity for twice-exceptional developers. Combines an **Alexa skill**, **PC Client (Python)**, **VS Code extension**, and a **profile engine** (FRI/VCI/WMI) with adapters for **Roblox MCP Server** and LLMs to help with executive function. Effectively turns Alexa into a developer assistant, with proper tooling to serve as a neurocognitive scaffolding system.
+Focus &amp; automation toolkit designed to increase productivity for twice-exceptional developers. Combines an **Alexa skill**, **PC Client (Python)**, **VS Code extension**, and a **profile engine** (FRI/VCI/WMI) with adapters for **Roblox MCP Server** and LLMs to help with executive functioning and coding. Effectively turns Alexa into a learning **and** developer assistant, with proper tooling to serve as a neurocognitive scaffolding system for different neurotypes.
 
 > 📌 This is a planning/documentation repo. **Source code will be open-sourced sometime in 2026.** Until then, this page hosts images, roadmap, and architecture notes.
 
@@ -11,9 +11,13 @@ Focus &amp; automation toolkit designed to increase productivity for twice-excep
 - Planning docs, screenshots, roadmap ✔️
 - License ✔️
 - Public API & CLI sketch (coming soon) ⏳
+- Trello REST API Integration (reading card progress throughout the day outloud via Alexa Skill)
+- Schedule block chunking, idle alerts, site blocking (via NextDNS API), schedule syncing (currently from Alexa->PC)
 
 **What’s not here yet**
-- Source code, release packages (scheduled OSS: 2026) ⏳
+- Public Source code, release packages (scheduled OSS: 2026) ⏳
+- PC Assistant UI (currently in development since November 2025) ⏲
+- AI functionality (currently in development since November 2025) ⏲
 
 ## TL;DR value
 - **Intuitive Setup (coming soon)**: Easy setup and adjustment allow developers to adjust wanted routines intuitively (also automatic setup for "deving-gene" Alexa skill communication)
@@ -23,11 +27,11 @@ Focus &amp; automation toolkit designed to increase productivity for twice-excep
 - **Workflow Glue**: Trello audits/exports, session logging, focus timers, gentle/aggressive “idle detection” (program switching, etc)
 - **Adaptive Profiles (coming soon)**: High-FRI / High-VCI / Low-WMI presets tune prompts, notes, and UI density. (Able to tailor proper workflow strategies based on cognitive battery).
 - **Mindfulness Breaks**: Allows proper breaks to preserve proper energy for coding sessions/prevent burnout
-- **Webhook Routines**: Allows Webhook Routine Triggers to be configured in a similar manner as Michael Dworkin's [WebhookRoutineTrigger](https://www.amazon.com/Michael-Dworkin-Webhook-Routine-Trigger/dp/B09RGPYHLL)) for proper Alexa communication
+- **Webhook Routines**: Allows Webhook Routine Triggers to be configured for Alexa Setup in a similar manner as Virtual Smart Home [URLRoutineTrigger](https://www.amazon.com/Virtual-Smart-Home-Routine-Trigger/dp/B08SHHS8JZ/) for cross-platform Alexa communication (currently uses Virtual Smart Home triggers for dev build; considered for early OSS 2026 release)
 
 **Security & operation (short version).**
 Deving Gene is **local-first** and **least-privilege**. The PC client enforces focus rules (e.g., app/process blocking and DNS toggles) and can expose an **optional** localhost webhook for automations.
-It **does not** read keystrokes, files, or page contents, and ships with **no telemetry**. Data (schedules, prefs, logs) stays on your machine by default.
+It **does not** read keystrokes, files, or page contents, etc. Data (schedules, prefs, logs) stays on your machine by default.
 
 ## PC Client Explanation
 **Current Configuration (late Q1 2025)**

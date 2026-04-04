@@ -198,6 +198,10 @@ The desktop surfaces are no longer just planned. Current apps include:
 
 ![Studio focus/idle indicator (RTFocuser add-on)](https://www.notion.so/image/attachment%3A7dfc1f7f-751c-4ea4-aa98-ef167748ab72%3Aimage.png?table=block&id=2a34773f-9ff0-8085-a131-f18dd6c9555e&spaceId=efeada7c-1a0f-4675-b93f-0a166276a715&width=1420&userId=&cache=v2 "Studio focus/idle indicator (RTFocuser add-on)")
 
+![PC Assistant App (Preview)](https://file.notion.so/f/f/efeada7c-1a0f-4675-b93f-0a166276a715/935d7ab8-5cc6-4862-ba51-6ed57979511e/image.png?table=block&id=3364773f-9ff0-80c4-b492-ec349fd13604&spaceId=efeada7c-1a0f-4675-b93f-0a166276a715&expirationTimestamp=1775311200000&signature=xG-HJgKsPqGQRSgJybFuBjYRfuORlUUE5U3fIzHAn7o&downloadName=image.png "PC Assistant App (Preview)")
+
+![PC Dashboards (Preview)](https://file.notion.so/f/f/efeada7c-1a0f-4675-b93f-0a166276a715/46d81f63-ead3-4a8e-b9ad-18fc7286db7f/image.png?table=block&id=3364773f-9ff0-80a9-aa6e-d0acea15390a&spaceId=efeada7c-1a0f-4675-b93f-0a166276a715&expirationTimestamp=1775311200000&signature=9RTnMLpH0jPMfJkEGpuFiK6LuLSXxr5kLTK_ADmD-Is&downloadName=image.png "PC Dashboards App (Preview)")
+
 ---
 ## Repository layout
 

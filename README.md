@@ -141,7 +141,7 @@ The current PC Client is the main local coordination layer. It already exposes F
 - MCP tool listing/execution
 - learning summaries
 - EVC microphone and streaming support (for metacognitive strategies + data)
-- periodic snapshotting (takes snapshots of whats going on, gets summaries compiled by )
+- periodic snapshotting (takes snapshots of whats going on, gets summaries compiled by local LLMS--currently through Ollama)
 
 It also maintains local fallback behavior when Alexa session state is unavailable, which keeps roadmap/schedule-related workflows usable from the PC side.
 
